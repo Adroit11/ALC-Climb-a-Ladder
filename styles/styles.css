@@ -2,4 +2,10 @@
 .font-custo{
     font-family: 'Asap', sans-serif;
 }
+.adroit:hover{
+    border-right: 3px solid #e3342f;
+}
+.word{
+	overflow-wrap: break-word;
+}
 @tailwind utilities;
