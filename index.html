@@ -16,11 +16,11 @@
         </div>
     </div>
     <!-- End of Nav Bar -->
-    <!-- Body of Phone Book -->
-    <div class="px-4">
+
+    <!-- body -->
     <div class="flex flex-wrap">
-        <!-- Left Div-->
-        <div class="w-1/5 sm:full md:full px-4">
+        <!-- Form Section to collect inputs for the phone contacts -->
+        <div class="w-full sm:w-1/5 md:w-1/5 mb-4 p-4">
             <div class="bg-grey-darkest p-8 text-white rounded-lg h-auto">
                 <h3>Add New Contact</h3>
                 <form id="addContactForm"class="pt-6 pb-2 my-2">
@@ -58,10 +58,9 @@
                 </form>
             </div>
         </div>
-        <!-- End left Div -->
-
-        <!-- Middle Contact List Div -->
-        <div class="w-3/5 sm:full md:full px-4">
+        <!-- eND OF FORM dIV -->
+        <!-- Contact List Part, to display all contacts -->
+        <div class="w-full sm:w-3/5 md:w-3/5 mb-4 p-4">
             <div class="rounded-lg border border-grey-lighter p-4 pb-8 text-black h-auto">
                 <div class="pt-4 mb-8">
                     <h3 class="">All Contacts</h3>
@@ -74,16 +73,16 @@
                         <div class="w-1/2 p-4 h-auto">
                                 No Contact Found
                         </div> 
-                        <div class="w-1/2 p-4 h-auto">
+                        <div class="w-1/2 p-4 scrolling-touch h-auto">
                             +234----------
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Middle Div -->
-        <!-- Right Phonebook  Div -->
-        <div class="w-1/5 sm:full md:full sm:block md:block px-4">
+        <!-- End of contact list div -->
+        <!-- Detailed view of contact when clicked -->
+        <div class="w-full invisible sm:w-1/5 md:w-1/5 md:visible mb-4 p-4">
             <div id="contactDetails" class="bg-grey-lightest p-4 pb-8 rounded-lg h-auto">
                 <div class="pt-4 mb-8">
                     <h3 class="text-red">No Contact Found</h3>
@@ -109,15 +108,10 @@
                     <path d="M298.259,126.86c1.5-4.2,2.6-8.4,3.4-12.6c13.2-79.1-25.8-81.9-25.8-81.9s-6.5-12.4-23.5-21.8c-11.4-6.8-27.3-12-48.2-10.2c-6.8,0.3-13.2,1.6-19.2,3.7c-7.7,2.6-14.7,6.4-21.1,10.8c-7.8,5-15.2,11-21.7,18c-10.3,10.5-19.5,24.2-23.5,41.2c-3.3,12.7-2.6,26,0.2,40.2c0.8,4.2,1.9,8.4,3.4,12.6c-7.8-0.7-17,3.8-8.3,34.3c6.1,22.4,12,28.6,16.5,29c4.1,26.6,24.6,60.3,58.3,72.2c13.8,4.9,29,4.9,42.7-0.1c33.2-12,54.3-45.6,58.4-72.1c4.5-0.4,10.3-6.6,16.7-29C315.159,130.56,306.059,126.06,298.259,126.86z"/>
                     <path d="M386.859,309.56c-5.4-7.1-13-12.8-23.7-15.5c-47.4-12.1-86-39.2-86-39.2l-30.1,95.1l-5.7,17.9l-0.1-0.2l-4.9,15.2l-15.8-45c39-54.4-7.9-53.8-10.5-53.8c-2.6-0.1-49.5-0.6-10.5,53.8l-15.9,45l-4.9-15.2l-0.1,0.2l-5.7-17.9l-30.1-95.1c0,0-38.5,27.1-86,39.2c-35.4,9-37.1,49.8-35.6,70c0.2,0,2.2,27.4,4.3,39.4c0,0,69,44.9,184.6,44.9c30.9,0,58.4-3.2,82.2-7.9c-2.5-8.8-3.8-18.1-3.8-27.7C288.559,357.46,332.259,312.16,386.859,309.56z"/>
                 </div>
-                <div class="h-8 w-full text-right mt-4">
-                    <span class="text-red">Delete Contact</span>
-                </div>
             </div>
         </div>
-        <!-- End of Right PhoneBook Div -->
+        <!-- End of detailed view -->
     </div>
-    </div>
-    <!-- End of PhoneBook Body -->
     <!-- Footer -->
     <div class="z-10 w-full  block pin-b bg-white pin-l h-12 fixed text-center font-bold border-t border-red pt-4">
         <span class="mr-8">&copy; 2018, Adroitly Designed</span>
